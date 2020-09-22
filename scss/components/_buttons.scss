@@ -1,4 +1,8 @@
-.main-page-banner__left_button {
+.buttons {
+    outline: none;
+}
+
+.banner__left_button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +19,37 @@
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
+
+    &:focus {
+        box-shadow: $main-part-button--shadow_active;
+    }
 }
+
+.catalogue-blocks_buttons {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    padding: .7rem 2.9rem;
+    border: 1px solid #000;
+    background: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+
+    &:focus {
+        border-color: $active-button-background-color;
+        box-shadow: $main-part-button--shadow_active;
+    }
+
+    &_chosen {
+    background: $active-button-background-color;
+    color: $active-button-text-color;
+    font-weight: 600;
+    border: none;
+    }
+}
+
 
 .button {
     border: 0;

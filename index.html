@@ -7,41 +7,163 @@
     <link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
-    <div class="main-background" />
-    <div class="main-background-mask" />
-    <header class="header">
-        <img class="header_logo" src="./img/logo.png">
-        <nav class="navigation">
-            <a class="navigation_elements" href="#">Главная</a>
-            <a class="navigation_elements" href="#">Друзья</a>
-            <a class="navigation_elements" href="#">О сервисе</a>
-            <a class="navigation_elements" href="#">Контакты</a>
-        </nav>
-        <div class="cart">
-            <img class="cart_icon" src="./img/cart.png">
+    <div class="main-background">
+        <header class="header">
+            <a href="#"><img class="header_logo" src="./img/logo.png"></a>
+            <nav class="navigation">
+                <a class="navigation_elements" href="#">Главная</a>
+                <a class="navigation_elements" href="#">Друзья</a>
+                <a class="navigation_elements" href="#">О сервисе</a>
+                <a class="navigation_elements" href="#">Контакты</a>
+            </nav>
+            <div class="cart">
+                <img class="cart_icon" src="./img/cart.png">
+            </div>
+        </header>
+        <div class="main-page-banner">
+            <div class="main-page-banner__left">
+                <div class="main-page-banner__left_title">Твой новый друг <br> с доставкой на дом</div>
+                <p class="main-page-banner__left_text">Онлайн магазин домащних животных подарит тебе нового друга в несколько кликов. Действуй!</p>
+                <button class="buttons banner__left_button">Посмотреть друзей</button>
+            </div>
         </div>
-    </header>
-    <div class="main-page-banner">
-        <div class="main-page-banner__left">
-            <div class="main-page-banner__left_title">Твой новый друг <br> с доставкой на дом</div>
-            <p class="main-page-banner__left_text">Онлайн магазин домащних животных подарит тебе нового друга в несколько кликов. Действуй!</p>
-            <button class="main-page-banner__left_button">Посмотреть друзей</button>
-        </div>
-        <img class="main-page-banner__image_mask" src="./img/MaskGroup.png">
-        <img class="main-page-banner__image" src="./img/dog.png">
     </div>
-    <div class="form-box">
-        <div class="boxes-title">Есть вопросы? Задавайте!</div>
-        <div class="form-container">
-            <form class="form">
-                <label for="name" class="form-labels">Имя</label>
-                <input class="value-inputs" type="text" name="name">
-                <label for="email" class="form-labels">Почта</label>
-                <input class="value-inputs" type="email" name="email">
-                <label for="message" class="form-labels">Сообщение</label>
-                <textarea class="value-inputs textarea" name="message"></textarea>
-                <input class="button button-submit" type="submit" value="Отправить">
-            </form>
+    <div class="mainpart-box">
+        <div class="page-elements why-choose-box">
+            <div class="boxes-title">Почему выбирают наших друзей</div>
+            <div class="why-choose__blocks">
+                <div class="why-choose__block">
+                    <div class="why-choose__icon-box"><img src="./../img/Group8.png"></div>
+                    <div class="why-choose__block-text"><h3 class="mini-titles">Их много</h3>
+                    Огромный выбор животных</div>
+                </div>
+                <div class="why-choose__block">
+                    <div class="why-choose__icon-box"><img src="./../img/Group2.png"></div>
+                    <div class="why-choose__block-text"><h3 class="mini-titles">Они здоровы</h3>
+                    Мы заботимся о каждом питомце, который с нами</div>
+                </div>
+                <div class="why-choose__block">
+                    <div class="why-choose__icon-box"><img src="./../img/Group3.png"></div>
+                    <div class="why-choose__block-text"><h3 class="mini-titles">Их любят</h3>
+                    Мы окружаем любовью и заботой наших друзей</div>
+                </div>
+            </div>
+        </div>
+        <div class="page-elements catalogue-box">
+            <div class="boxes-title">Каталог животных</div>
+            <div class="catalogue-blocks">
+                <input type="submit" class="buttons catalogue-blocks_buttons catalogue-blocks_buttons_chosen" value="Все">
+                <input type="submit" class="buttons catalogue-blocks_buttons" value="Кошки">
+                <input type="submit" class="buttons catalogue-blocks_buttons" value="Собаки">
+                <input type="submit" class="buttons catalogue-blocks_buttons" value="Хорьки">
+                <input type="submit" class="buttons catalogue-blocks_buttons" value="Птицы">
+                <input type="submit" class="buttons catalogue-blocks_buttons" value="Кролики">
+            </div>
+            <div class="products-box">
+                <div class="product-cards">
+                    <div class="product-card">
+                        <div class="age"><div class="month-count">4</div><div class="month">Месяца</div></div>
+                        <div class="pet-image"><img src="./../img/image2.png"></div>
+                        <div class="description"><div class="pet-title">Такса</div>
+                        <div class="pet-description">Охотничья порода собаки с короткими ногами. Питомец быстро станет верным другом человека</div></div>
+                        <div class="purchase"><div class="pet-price">7000 р.</div>
+                        <div class="purchase-cart"><img src="./../img/purchase.png"></div></div>
+                    </div>
+                    <div class="product-card">
+                        <div class="age"><div class="month-count">2</div><div class="month">Месяца</div></div>
+                        <div class="pet-image"><img src="./../img/image9.png"></div>
+                        <div class="description"><div class="pet-title">Абиссинская кошка</div>
+                        <div class="pet-description">Одна из самых древних пород кошек</div></div>
+                        <div class="purchase"><div class="pet-price">13000 р.</div>
+                        <div class="purchase-cart"><img src="./../img/purchase.png"></div></div>
+                    </div>
+                    <div class="product-card">
+                        <div class="age"><div class="month-count">3</div><div class="month">Месяца</div></div>
+                        <div class="pet-image"><img src="./../img/image24.png"></div>
+                        <div class="description"><div class="pet-title">Хорек</div>
+                        <div class="pet-description">Род млекопитающих семейства куньих.</div></div>
+                        <div class="purchase"><div class="pet-price">10000 р.</div>
+                        <div class="purchase-cart"><img src="./../img/purchase.png"></div></div>
+                    </div>
+                    <div class="product-card">
+                        <div class="age"><div class="month-count">1</div><div class="month">Месяц</div></div>
+                        <div class="pet-image"><img src="./../img/image11.png"></div>
+                        <div class="description"><div class="pet-title">Кролик</div>
+                        <div class="pet-description">Питомец быстро станет верным другом человека</div></div>
+                        <div class="purchase"><div class="pet-price">3000 р.</div>
+                        <div class="purchase-cart"><img src="./../img/purchase.png"></div></div>
+                    </div>
+                    <div class="product-card">
+                        <div class="age"><div class="month-count">4</div><div class="month">Месяца</div></div>
+                        <div class="pet-image"><img src="./../img/image12.png"></div>
+                        <div class="description"><div class="pet-title">Волнистый попугай</div>
+                        <div class="pet-description">Попугай - семейство птиц отряда попугаеобразных.</div></div>
+                        <div class="purchase"><div class="pet-price">2000 р.</div>
+                        <div class="purchase-cart"><img src="./../img/purchase.png"></div></div>
+                    </div>
+                    <div class="product-card">
+                        <div class="age"><div class="month-count">4</div><div class="month">Месяца</div></div>
+                        <div class="pet-image"><img src="./../img/cat.png"></div>
+                        <div class="description"><div class="pet-title">Кошка</div>
+                        <div class="pet-description">Охотничья порода собаки с короткими ногами.</div></div>
+                        <div class="purchase"><div class="pet-price">27000 р.</div>
+                        <div class="purchase-cart"><img src="./../img/purchase.png"></div></div>
+                    </div>
+                </div>
+                <div class="watch-next-box">
+                    <a href="" class="watch-next watch-next_left">Смотреть дальше <img src="./../img/Vector.png" class="watch-next_vector"></a>
+                </div>
+            </div>
+        </div>
+        <div class="page-elements form-box">
+            <div class="boxes-title">Есть вопросы? Задавайте!</div>
+            <div class="form-container">
+                <form class="form">
+                    <div class="input-group">
+                        <label for="name" class="form-labels">Имя</label>
+                        <input class="value-inputs" type="text" name="name">
+                    </div>
+                    <div class="input-group">
+                        <label for="email" class="form-labels">Почта</label>
+                        <input class="value-inputs" type="email" name="email">
+                    </div>
+                    <div class="input-group">
+                        <label for="message" class="form-labels">Сообщение</label>
+                        <textarea class="value-inputs textarea" name="message"></textarea>
+                    </div>
+                    <input class="button button-submit" type="submit" value="Отправить">
+                </form>
+            </div>
+        </div>
+        <div class="page-elements about-box">
+            <div class="box-left">
+                <div class="boxes-title">О питомнике Happy pet</div>
+                <div class="description">
+                    Охотничья порода собаки с короткими ногами. Считается чрезмерно активной, как вечный работающий моторчик. Питомец быстро станет верным другом человека. 
+                    Охотничья порода собаки с короткими ногами. Считается чрезмерно активной, как вечный работающий моторчик. Питомец быстро станет верным другом человека            
+                </div> 
+                <div class="watch-next-box">
+                    <div class="watch-next">Смотреть дальше <img src="./../img/Vector.png" class="watch-next_vector"></div>
+                </div>
+            </div>
+            <div class="box-right">
+                <div class="box-right_element">
+                    <img src="./../img/Ellipse.png" alt="" class="photos-people">
+                    <div class="names">Алексей</div>
+                </div>
+                <div class="box-right_element">
+                    <img src="./../img/Ellipse1.png" alt="" class="photos-people">
+                    <div class="names">Анна</div>
+                </div>
+                <div class="box-right_element">
+                    <img src="./../img/Ellipse2.png" alt="" class="photos-people">
+                    <div class="names">Карина</div>
+                </div>
+                <div class="box-right_element">
+                    <img src="./../img/Ellipse3.png" alt="" class="photos-people">
+                    <div class="names">Анастасия</div>
+                </div>
+            </div>   
         </div>
     </div>
 </body>

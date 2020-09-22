@@ -1,0 +1,76 @@
+.product-card {
+    width: 32%;
+    height: 540px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 8px rgba(255, 180, 68, 0.34);
+    border-radius: 50px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+
+.age {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+}
+
+.month-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: #C3EDFF;
+    margin-right: 1.2rem;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.pet-image {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pet-image img {
+    max-height: 250px;
+}
+
+.description {
+    margin-top: 1rem;
+    height: 120px;
+}
+
+.pet-title {
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+.pet-description {
+    font-size: .9rem;
+    line-height: 1.4;
+}
+
+.purchase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.pet-price {
+    margin-left: 5rem;
+    font-size: 1.2rem;
+}
+
+.watch-next-box {
+     padding: .3rem 0 0 1.8rem;
+}
