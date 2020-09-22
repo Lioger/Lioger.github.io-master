@@ -1,0 +1,37 @@
+.box {
+    width: 60%;
+    font-family: "Arial";
+    margin: 0 auto;
+}
+
+.title {
+    color: #000000;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 2.1rem;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    padding: .7rem 2.9rem;
+    border: 1px solid #000;
+    background: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.buttons_chosen {
+    background: #FA5353;
+    color: white;
+    font-weight: 600;
+    border: none;
+}

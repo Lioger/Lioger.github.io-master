@@ -1,0 +1,48 @@
+.main-background {
+    width: 100%;
+    height: 110vh;
+    background: url("./../../img/Rectangle 42.png") no-repeat;
+}
+
+.main-background-mask {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 116vh;
+    background: url("./../../img/Rectangle 4.png") no-repeat;
+}
+
+.main-page-banner__image {
+    position: absolute;
+    right: 9%;
+    top: 12%;
+    z-index: 0;
+
+    &_mask {
+        position: absolute;
+        right: 5%;
+        top: 4%;
+    }
+}
+
+.main-page-banner__left {
+    font-family: $main-font-family;
+    width: $main-page-width;
+    margin: 10rem auto;
+    padding: 0 3rem;
+
+    &_title {
+        font-weight: 600;
+        font-size: 3.3rem;
+    }
+
+    &_text {
+        width: 55%;
+        font-weight: 300;
+        font-size: 1.8rem;
+    }
+
+    &_title, &_text {
+        margin-bottom: 3rem;
+    }
+}
