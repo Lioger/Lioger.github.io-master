@@ -10,6 +10,7 @@
     background: linear-gradient(91.52deg, rgba(255, 141, 6, 0.57) -8.95%, #F79C17 102.01%);
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .footer-box {
@@ -40,14 +41,17 @@
 
 .blocks-footer_1 {
     width: 50%;
+    height: 200px;
 }
 
 .blocks-footer_2 {
     width: 35%;
+    height: 150px;
 }
 
 .blocks-footer_3 {
     width: 15%;
+    height: 150px;
 }
 
 .logo {

@@ -4,20 +4,27 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @import "./utils/variables";
 
-
 @import "./pages/mainpage";
+@import "./pages/mainpage-media";
 
-
-@import "./layout/header";
-@import "./layout/navigation";
 @import "./components/cart";
 @import "./components/buttons";
 @import "./components/inputs";
 @import "./components/box-titles";
 @import "./components/product-cards";
 @import "./components/watch-next";
+
+@import "./layout/header";
+@import "./layout/navigation";
 @import "./layout/forms";
 @import "./layout/horiz-blocks";
 @import "./layout/catalogue";
+@import "./layout/photogrid";
+@import "./layout/about-us";
+@import "./layout/footer";

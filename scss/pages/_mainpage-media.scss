@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+    .page-elements {
+        width: 100%;
+    }
+    .catalogue-blocks {
+        max-width: 100%;
+    }
+    .why-choose-box {
+        flex-wrap: wrap;
+    }
+    .why-choose__blocks {
+        width: 80%;
+    }
+}

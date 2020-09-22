@@ -1,10 +1,18 @@
+.input-group {
+    width: 90%;
+}
+
 .value-inputs {
-    border: 0.13rem solid;
+    border: 0.1rem solid;
     border-color: $forms-input-border-color;
     width: 100%;
-    height: 2.6rem;
+    height: 2.9rem;
     margin-bottom: 2rem;
     border-radius: 8px;
+    padding: 1rem;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: $main-font-family;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;

@@ -1,5 +1,10 @@
 .buttons {
     outline: none;
+
+    &:focus {
+        border-color: $active-button-background-color;
+        box-shadow: $main-part-button--shadow_focus;
+    }
 }
 
 .banner__left_button {
@@ -15,14 +20,13 @@
     color: $active-button-text-color;
     font-size: 1.7rem;
     font-weight: 600;
+    text-decoration: none;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
 
-    &:focus {
-        box-shadow: $main-part-button--shadow_active;
-    }
+
 }
 
 .catalogue-blocks_buttons {
@@ -37,9 +41,9 @@
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
 
-    &:focus {
+    &:hover{
         border-color: $active-button-background-color;
-        box-shadow: $main-part-button--shadow_active;
+        box-shadow: $main-part-button--shadow_hover;
     }
 
     &_chosen {
@@ -50,15 +54,11 @@
     }
 }
 
-
-.button {
+.button-submit {
     border: 0;
     background: $active-button-background-color;
     border-radius: 50px;
     color: $active-button-text-color;
-}
-
-.button-submit {
     width: 25%;
     height: 2rem;
     font-size: 1rem;
